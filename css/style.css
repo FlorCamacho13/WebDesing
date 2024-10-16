@@ -1,0 +1,206 @@
+/* Estilos para toda la pagina:  */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #fbfbfb;
+}
+
+
+
+
+/* Estilo para el HEADER: */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2dfdf;
+    padding: 25px 20px;
+    top: 0;
+    justify-content: space-around;
+    }
+
+
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(163, 163, 163);
+    line-height: 1.2;
+    text-align:left;
+}
+
+nav ul {
+    display: flex  ; 
+    flex-direction: row  ;
+    list-style: none ;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    list-style: none ;
+    float: right;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    font-weight: bold;
+    justify-content: space-around;
+    justify-items:center;
+}
+
+
+nav a:hover {
+    font-weight: bold;
+    color: #6e2424;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #6e2424;
+    line-height: 1.2;
+    text-align:center;
+
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: rgb(149, 147, 147);
+    text-align: justify;
+    margin: 0 0 10px;
+}
+
+
+section {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(71, 68, 68, 0.25);
+}
+
+
+
+/* Estilo para el INICIO: */
+
+
+
+
+/* Estilo para el CONTENIDO */
+@media (min-width: 768px) {
+    .container {
+        width: 1250px;
+    }
+}
+.container {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+*/
+
+
+/* Estilo para las SOBRE NOSOTROS:  */
+
+
+/* Estilo para las EXPERIENCIAS:  */
+.containerexp {
+    width: 500px;
+    margin: 150px auto;
+    font-family: Arial;
+    position: relative;
+    overflow: hidden;
+}
+
+.containerexp img {
+    width: 100%;
+    height: auto;
+    transition: all .5s;
+}
+
+.containerexp:hover img {
+    transform: scale(1.09);
+}
+
+.containerexp .contentexp {
+    background: #434343;
+    opacity: 50%;
+    position:absolute;
+    top: -100%;
+    left: 00;
+    text-align: justify;
+    height: 100%;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.contentexp h3 {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #fffbfb;
+    padding: 0 px 10px 20px 10px;
+
+}
+
+.containerexp p {
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.containerexp:hover .contentexp {
+    top: 0;
+}
+
+
+
+/* Estilo para el CONTACTO:  */
+
+
+
+
+
+/* Estilo para el FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #313131;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    }
+
+footer a:hover {
+    color: #ddd;
+}
+
+footer p {
+    font-size: small;
+}
+
+
+
+
+
+    
